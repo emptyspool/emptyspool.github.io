@@ -210,6 +210,13 @@
    "Comment": ""
  },
  {
+   "Manufacturer": "Atomic Filament",
+   "Flavor (type, size, etc)": "PETG, 1kg",
+   "Year": 2024,
+   "Spool Weight, g": "314",
+   "Comment": "Core ID: 53mm, Overall OD: 203mm, Width: 73mm"
+ },
+ {
    "Manufacturer": "AzureFilm",
    "Flavor (type, size, etc)": "PLA, 1kg",
    "Year": 2021,
@@ -841,6 +848,13 @@
  },
  {
    "Manufacturer": "MatterHackers",
+   "Flavor (type, size, etc)": "Build PETG",
+   "Year": 2024,
+   "Spool Weight, g": "214",
+   "Comment": "Core ID: 55mm, Overall OD: 200mm, Width: 63mm"
+ },
+ {
+   "Manufacturer": "MatterHackers",
    "Flavor (type, size, etc)": "1kg PLA (MH Build)",
    "Year": 2019,
    "Spool Weight, g": "228",
@@ -973,6 +987,13 @@
    "Comment": "Spool have smooth sides, Diameter=200 Width=66 CoreDiameter=50"
  },
  {
+   "Manufacturer": "Polar Filaments",
+   "Flavor (type, size, etc)": "",
+   "Year": null,
+   "Spool Weight, g": "117",
+   "Comment": "Michigan US based filament producer, 117g empty cardboard spool, Spool dimensions: Core ID: 55mm, Core OD: 88mm, Overall OD: 198mm, Width: 60.5mm, Side Thickness: 1.9mm"
+ },
+ {
    "Manufacturer": "Proto-Pasta",
    "Flavor (type, size, etc)": "",
    "Year": null,
@@ -985,6 +1006,13 @@
    "Year": null,
    "Spool Weight, g": "130",
    "Comment": ""
+ },
+ {
+   "Manufacturer": "Prusa Research",
+   "Flavor (type, size, etc)": "Prusament PETG 1KG",
+   "Year": 2024,
+   "Spool Weight, g": "130",
+   "Comment": "Core ID: 50mm, Overall OD: 200mm, Width: 67mm"
  },
  {
    "Manufacturer": "Prusa Research",
