@@ -1,7 +1,7 @@
 ---
 name: Spool Addition
 about: To get a spool added to the database
-title: ''
+title: "[Spool Addition] "
 labels: spool addition
 assignees: samster395
 
