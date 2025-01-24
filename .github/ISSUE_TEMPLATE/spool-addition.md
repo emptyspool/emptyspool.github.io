@@ -3,7 +3,7 @@ name: Spool Addition
 about: To get a spool added to the database
 title: ''
 labels: spool addition
-assignees: ''
+assignees: samster395
 
 ---
 
