@@ -33,6 +33,10 @@
 <link rel="stylesheet" href="includes/style.css">
 <script>$(document).ready(function() {
     $('#table').DataTable( {
+    columnDefs: [{
+    "defaultContent": "",
+    "targets": "_all"
+    }],
     layout: {
         topStart: {
             buttons: [
@@ -54,7 +58,16 @@
         { data: 'Flavor (type, size, etc)' },
         { data: 'Year' },
         { data: 'Spool Weight, g' },
-        { data: 'Comment' }
+        { data: 'Comment' },
+        { 
+            data: 'Image', 
+            "render": function(data, type, row, meta){
+            if(type === 'display' && data != null){
+                data = '<a href="' + data + '" target="_blank">' + data + '</a>';
+            }
+            return data;
+            }  
+        }
     ]
     
     } );
@@ -63,7 +76,7 @@
 </script>
 <div class="container-lg px-3 markdown-body">
     <div>
-    <h3 style="float: left; margin-top: 5px; !important">Empty filament spool weight database</h3> <h4 style="float: right; margin-top: 5px !important; font-weight: 500 !important;">Don't see your Spool Brand here? <a href="https://github.com/emptyspool/emptyspool.github.io" target=”_blank”>Weigh it when empty and contribute here</a></h4>
+    <h3 style="float: left; margin-top: 5px; !important">Empty filament spool weight database</h3> <h4 style="float: right; margin-top: 5px !important; font-weight: 500 !important;">Don't see your Spool Brand here? <a href="https://github.com/emptyspool/emptyspool.github.io/issues" target=”_blank”>Weigh it when empty and contribute here</a></h4>
     </div>
 <br>
 <table id="table" class="display" style="width:100%;">
@@ -74,19 +87,8 @@
                 <th>Year</th>
                 <th>Spool Weight, g</th>
                 <th>Comment</th>
+                <th>Image</th>
             </tr>
         </thead>
-        <!-- Don't think this is needed
-        <tfoot>
-            <tr>
-                <th>Manufacturer</th>
-                <th>Flavor (type, size, etc)</th>
-                <th>Year</th>
-                <th>Spool Weight, g</th>
-                <th>Comment</th>
-            </tr>
-        </tfoot>
-        -->
     </table>
-
 </div>
