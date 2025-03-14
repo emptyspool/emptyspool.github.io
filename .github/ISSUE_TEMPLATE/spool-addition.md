@@ -12,4 +12,4 @@ Flavor (type, size, etc):
 Year: 
 Spool Weight, g: 
 Comment (Spool dimensions, Core ID, Core OD, Overall OD, Width etc):
-Image (Optional, a [Imgur](https://imgur.com/upload) link):
+Image (Optional, a https://imgur.com/upload link):
